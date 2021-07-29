@@ -61,7 +61,7 @@ public class Level1 extends Level2Game {
 			buttons.get(22).setBackground(Color.black);
 			Timer timer = new Timer();
 			timer.scheduleAtFixedRate(new TimerTask() {
-				int i = 1;
+				int i = 8;
 				public void run() {
 					((JButton) e.getSource()).setText(String.valueOf(i));
 					i--;
